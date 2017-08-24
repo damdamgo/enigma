@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Enigma</string>
+    <string name="gcm_defaultSenderId">62668747045</string>
+    <string name="title_activity_activity_game">ActivityGame</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+</resources>

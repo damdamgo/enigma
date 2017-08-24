@@ -1,0 +1,29 @@
+<resources>
+
+    <style name="MyMaterialTheme" parent="MyMaterialTheme.Base">
+
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="MyMaterialTheme.Base" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/back</item>
+        <item name="colorPrimaryDark">@color/back</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MyCustomTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/textTabSelected</item>
+        <item name="android:background">@color/back</item>
+        <item name="tabSelectedTextColor">@color/textTabSelected</item>
+        <item name="tabTextAppearance">@style/TextAppearance.Design.Tab</item>
+    </style>
+
+    <style name="TextAppearance.Design.Tab" parent="TextAppearance.AppCompat.Button">
+        <item name="android:textSize">@dimen/design_tab_text_size</item>
+        <item name="android:textColor">@color/textTab</item>
+        <item name="textAllCaps">true</item>
+    </style>
+
+</resources>
